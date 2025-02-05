@@ -1,7 +1,10 @@
 # Lab03-exercises Readme file
 
-## Write a function (or static method in the case of Java) that accepts a list of integers and returns a list of only those integers that appear more than once
+## findAllDuplicates function
 
+* Write a function (or static method in the case of Java) that accepts a list of integers and returns a list of only those integers that appear more than once
+
+```{java}
     public static LinkedList<Integer> findAllDuplicates(LinkedList<Integer> list) {
         LinkedList<Integer> ret = new LinkedList<>();
         HashSet<Integer> seen = new HashSet<>();
@@ -21,6 +24,7 @@
             }
         return ret;
     }
+```
 
 ## Describe Different Approaches to Solving This Problem
 
